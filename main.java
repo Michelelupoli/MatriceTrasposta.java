@@ -41,7 +41,7 @@ public class MatriceTrasposta {
 		{
 			for (j=0; j<colonna; j++)
 			{
-				System.out.print("Inserisci elemento matrice n. " + "[" + i+1 + "]" + "[" + j+1 + "] : ");
+				System.out.print("Inserisci elemento matrice n. "+"["+i+"]"+"["+j+"]: ");
 				try {
 				String numeroLetto = tastiera.readLine();
 				matrice[i][j] = Integer.valueOf(numeroLetto).intValue();
